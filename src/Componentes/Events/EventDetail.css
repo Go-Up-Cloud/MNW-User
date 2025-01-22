@@ -1,0 +1,84 @@
+.detalles-evento {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 100vh;
+  gap: 5rem;
+}
+
+.evento-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background: none;
+}
+
+.evento-imagen {
+  max-width: 100%;
+  height: auto;
+  z-index: 2;
+  background: none;
+}
+
+.evento-imagen img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  z-index: 2;
+}
+
+.evento-descripcion {
+  flex: 1;
+  z-index: 1;
+  background: none;
+}
+
+.evento-descripcion h2, p {
+  background: none;
+
+}
+
+.evento-detalles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: none;
+
+
+}
+
+.evento-detalles h1 {
+  margin-bottom: 10px;
+  font-size: 40px;
+  background: none;
+
+}
+
+.evento-detalles p {
+  margin: 5px 0;
+  font-size: 22px;
+  background: none;
+
+}
+
+.precio {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 20px;
+  background: #242424;
+  margin-top: 5rem;
+  z-index: 2;
+}
+
+.blob {
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  z-index: 0;
+  filter: blur(150px);
+  margin-left: 60rem;
+}

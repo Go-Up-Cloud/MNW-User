@@ -1,0 +1,12 @@
+.content-border {
+  padding: 10px 10vw;
+}
+.content-border .title {
+  display: flex;
+  width: 100%;
+  align-self: center;
+  justify-content: center;
+}
+.content-border h2 {
+  margin-top: 20px;
+}/*# sourceMappingURL=Privacy.css.map */

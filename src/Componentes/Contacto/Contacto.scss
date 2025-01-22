@@ -1,0 +1,198 @@
+.unete-content {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 3rem;
+
+    h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    } 
+
+    p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    width: 70%;
+    }
+    
+    .unete-service{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 80%;
+        margin: 50px 0 50px 0;
+        .serviceData{
+            width: 50%;
+            
+            ul {
+                padding-left: 20px;
+                font-size: 18px;
+                margin-bottom: 20px;
+                color: #aaa;
+            }
+            h2 {
+                font-size: 25px;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+        }
+        .serviceImage{
+            img {
+                width:400px;
+            }
+        }
+    }
+
+    .unete-benefits{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5rem;
+        gap: 2rem;
+        h2 {
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+        ul {
+            display: flex;
+            gap: 2rem;
+            li{
+                width: 250px;
+                border-radius: 8px;
+                padding: 10px;
+                background-color: #333;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                text-decoration: none;
+             
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 1rem;
+                &:hover{
+                    background: #424242;
+                    p,b{
+                        background: #424242;
+                    }
+                }
+            }
+            img{
+                height: 140px;
+            }
+            img,p,b{
+                background: #333;
+                font-size: 16px;
+            }
+            
+        }
+    }
+
+    .unete-contact{
+        display: flex;
+        width: 90%;
+        margin-bottom: 50px;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+            width: 90%;
+            text-align: center;
+            h2{
+                font-size: 1.5rem;
+            }
+
+        }
+        .contact-form {
+            width: 60%;
+            background-color: #8d8d8d;
+            padding: 20px;
+            border-radius: 10px;
+            h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            background-color: #8d8d8d;
+            color: #333;
+            }
+            
+            form {
+            background-color: #8d8d8d;
+            display: flex;
+            flex-direction: column;
+            }
+            
+            label {
+            background-color: #8d8d8d;
+            font-size: 16px;
+            margin-bottom: 5px;
+            }
+            
+            input,
+            textarea {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #b9b9b9;
+            }
+        }
+        
+    }
+}
+
+@media screen and (max-width:1220px) {
+    .unete-benefits{
+        width: 80%;
+        ul {
+            flex-direction: column;
+            width: 100%;
+           align-items: center;
+            img{
+                height: 140px;
+            }
+            img,p,b{
+                background: #333;
+                font-size: 16px;
+            }
+            
+        }
+    }
+
+}
+
+@media screen and (max-width:900px) {
+    .unete-service{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        .serviceData{
+            width: 100%;
+            ul {
+                padding-left: 20px;
+                font-size: 18px;
+                margin-bottom: 20px;
+                color: #aaa;
+            }
+            h2 {
+                font-size: 25px;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+        }
+        .serviceImage{
+            img {
+                width:400px;
+            }
+        }
+    }
+
+}
+  
+
+  
+  
