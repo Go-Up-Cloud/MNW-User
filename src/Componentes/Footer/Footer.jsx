@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import logo from '../../assets/logomn1.png'
-import Instagram from '@iconscout/react-unicons/icons/uil-instagram';
+//import Instagram from '@iconscout/react-unicons/icons/uil-instagram';
 
 export default function Footer() {
   return (
@@ -16,12 +16,11 @@ export default function Footer() {
             <h4 className='aGoup'>Términos y Condiciones</h4>
           </a>
         </div>
-        <div className='instagram' >
+        {/* <div className='instagram' >
           <a  href="/">
-          {/* <a href="https://www.instagram.com/donca_travel/" target="_blank" rel="noreferrer"> */}
             <Instagram size="50"/>
           </a>
-        </div>
+        </div> */}
           
         </div>
         <div className='derechos'>
