@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home4/goupclo1/mnclub.goup.cloud
+    - export DEPLOYPATH="/home4/goupclo1/mnclub.goup.cloud"
     - /bin/cp -R dist/. $DEPLOYPATH
