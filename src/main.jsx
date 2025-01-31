@@ -6,10 +6,10 @@ import { Auth0Provider } from '@auth0/auth0-react';
 import axios from 'axios';
 
 //Deploy
-// axios.defaults.baseURL = "https://back-mynight-dcker.azurewebsites.net";
+axios.defaults.baseURL = "https://back-mynight-dcker.azurewebsites.net";
 
 //Local
-axios.defaults.baseURL = "http://localhost:3000";
+//axios.defaults.baseURL = "http://localhost:3000";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 <BrowserRouter>
